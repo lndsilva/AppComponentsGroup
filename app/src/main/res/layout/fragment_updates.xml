@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UpdatesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarUpdates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/idToolBarUpdates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_updates"
+            app:navigationIcon="@drawable/baseline_arrow_back_up"
+            app:subtitle="System Managments"
+            app:title="Updates" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="Updates"
-        android:textColor="#009688"
-        android:textSize="40sp"
-        android:textStyle="bold" />
+        android:layout_below="@+id/appBarUpdates"
+        android:indeterminate="true"
 
 
-</FrameLayout>
+
+        />
+
+
+</RelativeLayout>

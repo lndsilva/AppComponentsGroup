@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GoFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:text="GO"
-        android:textColor="#FFEB3B"
-        android:textSize="40sp"
-        android:textStyle="bold" />
+    <FrameLayout
+        android:id="@+id/idBottomSheetGo"
+        style="?attr/bottomSheetStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9C27B0"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_share_go" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_link" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_edit" />
+        </LinearLayout>
+
+    </FrameLayout>
 
 
-</FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

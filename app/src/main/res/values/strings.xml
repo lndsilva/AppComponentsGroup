@@ -15,4 +15,9 @@
     <string name="home">Home</string>
     <string name="people">People</string>
     <string name="chat">Chat</string>
+    <string name="create">Create</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="go_page">GO</string>
 </resources>
