@@ -26,11 +26,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/appBarUpdates"
-        android:indeterminate="true"
+        android:indeterminate="true" />
 
-
-
-        />
+    <Button
+        android:id="@+id/btnUpdates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6200ee"
+        android:fontFamily="serif"
+        android:text="Show Dialog"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/appBarUpdates"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="28dp" />
 
 
 </RelativeLayout>
