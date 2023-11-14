@@ -6,10 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".GoFragment">
 
+    <androidx.core.widget.NestedScrollView
+        android:contentDescription="@string/barra_de_busca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/searchbar_scrolling_view_behavior">
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <androidx.appcompat.widget.SearchView
         android:id="@+id/idSearchView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPersonName"
         app:queryHint="Insira sua localização" />
 
 

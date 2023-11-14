@@ -20,4 +20,10 @@
     <string name="update">Update</string>
     <string name="delete">Delete</string>
     <string name="go_page">GO</string>
+    <string name="searchbar_scrolling_view_behavior"></string>
+    <string name="barra_de_busca">Barra de busca</string>
+    <string name="inbox">Inbox</string>
+    <string name="outbox">Outbox</string>
+    <string name="header_text">Header Text</string>
+    <string name="header_title">Header Title</string>
 </resources>
