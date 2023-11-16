@@ -14,7 +14,7 @@
             android:id="@+id/idToolBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:contentDescription="MenuNav"
+            android:contentDescription="@string/menunav"
             android:minHeight="?attr/actionBarSize"
             app:menu="@menu/menu_top_bar"
             app:navigationIcon="@drawable/baseline_menu" />

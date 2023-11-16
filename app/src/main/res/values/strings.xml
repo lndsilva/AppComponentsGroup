@@ -26,4 +26,5 @@
     <string name="outbox">Outbox</string>
     <string name="header_text">Header Text</string>
     <string name="header_title">Header Title</string>
+    <string name="menunav">MenuNav</string>
 </resources>
